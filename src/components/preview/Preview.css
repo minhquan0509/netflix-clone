@@ -1,0 +1,33 @@
+.preview {
+    display: flex;
+    padding: 20px;
+    min-height: 300px;
+    /* transition-timing-function: ease-in;
+    transition: all 1s; */
+}
+
+.preview > iframe {
+    width: 100%;
+    height: auto;
+}
+
+.preview__details {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.preview__details > h2 {
+    margin-bottom: 10px;
+}
+
+.preview__details > p {
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.preview__details > h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ccc;
+}
